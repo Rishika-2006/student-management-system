@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Edit Student</h2>
+
+<form method="POST">
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input type="text"
+               name="name"
+               value="{{ student.name }}"
+               class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label>Maths</label>
+        <input type="number"
+               name="maths"
+               value="{{ student.maths }}"
+               class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label>Science</label>
+        <input type="number"
+               name="science"
+               value="{{ student.science }}"
+               class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label>English</label>
+        <input type="number"
+               name="english"
+               value="{{ student.english }}"
+               class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label>Attendance</label>
+        <input type="number"
+               name="attendance"
+               value="{{ student.attendance }}"
+               class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Update Student
+    </button>
+
+</form>
+
+{% endblock %}
