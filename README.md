@@ -2,7 +2,7 @@
 
 A Flask web app for managing student records with full CRUD operations (Create, Read, Update, Delete).
 
-**Live demo:** [add your Render link here]
+**Live demo:** (https://student-management-system-dpfj.onrender.com/)
 
 ## Features
 - Add, view, edit, and delete student records
